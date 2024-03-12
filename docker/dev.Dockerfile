@@ -1,5 +1,5 @@
 # Author: Laysson O. Luz
-# Date: 11/01/2022
+# Date: 23/02/2024
 # Description: Dockerfile for development environment of web_crawler image
 
 # Base image with cargo 1.70+
