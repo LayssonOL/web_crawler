@@ -16,12 +16,12 @@ services:
     command: sh -c "cargo watch -x run"
     networks:
       web_crawler:
-        ipv4_address: 172.12.5.2
+        ipv4_address: 172.11.6.2
 
 networks:
   web_crawler:
     ipam:
       config:
-        - subnet: 172.12.0.0/16
-          ip_range: 172.12.5.0/24
-          gateway: 172.12.5.1
+        - subnet: 172.11.0.0/16
+          ip_range: 172.11.6.0/24
+          gateway: 172.11.6.1
